@@ -8,4 +8,3 @@ sym_dir=./symbols/test/$sym_id
 mkdir -p $sym_dir
 mv test.sym $sym_dir
 
-/usr/local/breakpads/bin/minidump_stackwalk 

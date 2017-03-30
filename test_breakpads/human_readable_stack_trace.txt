@@ -1,0 +1,85 @@
+2017-03-29 22:30:14: minidump.cc:4811: INFO: Minidump opened minidump 22b4cea6-be2a-15e7-07d297b7-179f0d51.dmp
+2017-03-29 22:30:14: minidump.cc:4931: INFO: Minidump not byte-swapping minidump
+2017-03-29 22:30:14: minidump.cc:5414: INFO: GetStream: type 15 not present
+2017-03-29 22:30:14: minidump.cc:5414: INFO: GetStream: type 1197932545 not present
+2017-03-29 22:30:14: minidump.cc:5414: INFO: GetStream: type 1197932546 not present
+2017-03-29 22:30:14: minidump.cc:2182: INFO: MinidumpModule could not determine version for /home/nickhatz/Desktop/test_breakpad/test_breakpads/test
+2017-03-29 22:30:14: minidump.cc:2182: INFO: MinidumpModule could not determine version for /usr/lib64/libc-2.17.so
+2017-03-29 22:30:14: minidump.cc:2182: INFO: MinidumpModule could not determine version for /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+2017-03-29 22:30:14: minidump.cc:2182: INFO: MinidumpModule could not determine version for /usr/lib64/libm-2.17.so
+2017-03-29 22:30:14: minidump.cc:2182: INFO: MinidumpModule could not determine version for /usr/lib64/libstdc++.so.6.0.19
+2017-03-29 22:30:14: minidump.cc:2182: INFO: MinidumpModule could not determine version for /usr/lib64/libpthread-2.17.so
+2017-03-29 22:30:14: minidump.cc:2182: INFO: MinidumpModule could not determine version for /usr/lib64/ld-2.17.so
+2017-03-29 22:30:14: minidump.cc:2182: INFO: MinidumpModule could not determine version for linux-gate.so
+2017-03-29 22:30:14: minidump.cc:2182: INFO: MinidumpModule could not determine version for /home/nickhatz/Desktop/test_breakpad/test_breakpads/test
+2017-03-29 22:30:14: minidump.cc:2182: INFO: MinidumpModule could not determine version for /usr/lib64/libc-2.17.so
+2017-03-29 22:30:14: minidump.cc:2182: INFO: MinidumpModule could not determine version for /usr/lib64/libgcc_s-4.8.5-20150702.so.1
+2017-03-29 22:30:14: minidump.cc:2182: INFO: MinidumpModule could not determine version for /usr/lib64/libm-2.17.so
+2017-03-29 22:30:14: minidump.cc:2182: INFO: MinidumpModule could not determine version for /usr/lib64/libstdc++.so.6.0.19
+2017-03-29 22:30:14: minidump.cc:2182: INFO: MinidumpModule could not determine version for /usr/lib64/libpthread-2.17.so
+2017-03-29 22:30:14: minidump.cc:2182: INFO: MinidumpModule could not determine version for /usr/lib64/ld-2.17.so
+2017-03-29 22:30:14: minidump.cc:2182: INFO: MinidumpModule could not determine version for linux-gate.so
+2017-03-29 22:30:14: minidump.cc:5414: INFO: GetStream: type 14 not present
+2017-03-29 22:30:14: minidump_processor.cc:152: INFO: Found 2 memory regions.
+2017-03-29 22:30:14: minidump_processor.cc:162: INFO: Minidump 22b4cea6-be2a-15e7-07d297b7-179f0d51.dmp has CPU info, OS info, no Breakpad info, exception, module list, thread list, no dump thread, requesting thread, and no process create time
+2017-03-29 22:30:14: minidump_processor.cc:201: INFO: Looking at thread 22b4cea6-be2a-15e7-07d297b7-179f0d51.dmp:0/1 id 0x319f
+2017-03-29 22:30:14: minidump.cc:452: INFO: MinidumpContext: looks like AMD64 context
+2017-03-29 22:30:14: minidump.cc:452: INFO: MinidumpContext: looks like AMD64 context
+2017-03-29 22:30:14: source_line_resolver_base.cc:236: INFO: Loading symbols for module /home/nickhatz/Desktop/test_breakpad/test_breakpads/test from memory buffer
+2017-03-29 22:30:14: simple_symbol_supplier.cc:196: INFO: No symbol file at ./symbols//libc-2.17.so/17422C8B9816925B7AA0CAF2A05D0B1F0/libc-2.17.so.sym
+2017-03-29 22:30:14: stackwalker.cc:98: INFO: Couldn't load symbols for: /usr/lib64/libc-2.17.so|17422C8B9816925B7AA0CAF2A05D0B1F0
+2017-03-29 22:30:14: minidump.cc:1308: INFO: MinidumpMemoryRegion request out of range: 0x8+8/0x7ffe00d2c000+0x3000
+2017-03-29 22:30:14: basic_code_modules.cc:110: INFO: No module at 0x2000000000
+2017-03-29 22:30:14: basic_code_modules.cc:110: INFO: No module at 0x7ffe00d2c928
+2017-03-29 22:30:14: basic_code_modules.cc:110: INFO: No module at 0x100000000
+2017-03-29 22:30:14: minidump_processor.cc:326: INFO: Processed 22b4cea6-be2a-15e7-07d297b7-179f0d51.dmp
+2017-03-29 22:30:14: minidump.cc:4783: INFO: Minidump closing minidump
+Operating system: Linux
+                  0.0.0 Linux 3.10.0-514.10.2.el7.x86_64 #1 SMP Fri Mar 3 00:04:05 UTC 2017 x86_64
+CPU: amd64
+     family 6 model 23 stepping 10
+     8 CPUs
+
+GPU: UNKNOWN
+
+Crash reason:  SIGSEGV
+Crash address: 0x0
+Process uptime: not available
+
+Thread 0 (crashed)
+ 0  test!crash() [test.cpp : 10 + 0xc]
+    rax = 0x0000000000000000   rdx = 0x00000000006188a0
+    rcx = 0x0000000000000000   rbx = 0x0000000000000000
+    rsi = 0x0000000000000000   rdi = 0x00000000006188a0
+    rbp = 0x00007ffe00d2c6e0   rsp = 0x00007ffe00d2c6e0
+     r8 = 0x0000000000000000    r9 = 0x0000000000000008
+    r10 = 0x00007ffe00d2c420   r11 = 0x00007fe5cae23bb0
+    r12 = 0x0000000000401c98   r13 = 0x00007ffe00d2c920
+    r14 = 0x0000000000000000   r15 = 0x0000000000000000
+    rip = 0x0000000000401dd6
+    Found by: given as instruction pointer in context
+ 1  test!main [test.cpp : 15 + 0x5]
+    rbx = 0x0000000000000000   rbp = 0x00007ffe00d2c840
+    rsp = 0x00007ffe00d2c6f0   r12 = 0x0000000000401c98
+    r13 = 0x00007ffe00d2c920   r14 = 0x0000000000000000
+    r15 = 0x0000000000000000   rip = 0x0000000000401e7e
+    Found by: call frame info
+ 2  libc-2.17.so + 0x21b35
+    rbx = 0x0000000000000000   rbp = 0x0000000000000000
+    rsp = 0x00007ffe00d2c850   r12 = 0x0000000000401c98
+    r13 = 0x00007ffe00d2c920   r14 = 0x0000000000000000
+    r15 = 0x0000000000000000   rip = 0x00007fe5ca258b35
+    Found by: call frame info
+ 3  test!crash() [test.cpp : 10 + 0x14]
+    rsp = 0x00007ffe00d2c870   rip = 0x0000000000401dde
+    Found by: stack scanning
+
+Loaded modules:
+0x00400000 - 0x00417fff  test  ???  (main)
+0x7fe5ca237000 - 0x7fe5ca3ecfff  libc-2.17.so  ???  (WARNING: No symbols, libc-2.17.so, 17422C8B9816925B7AA0CAF2A05D0B1F0)
+0x7fe5ca5f8000 - 0x7fe5ca60cfff  libgcc_s-4.8.5-20150702.so.1  ???
+0x7fe5ca80e000 - 0x7fe5ca90dfff  libm-2.17.so  ???
+0x7fe5cab10000 - 0x7fe5cabf8fff  libstdc++.so.6.0.19  ???
+0x7fe5cae19000 - 0x7fe5cae2ffff  libpthread-2.17.so  ???
+0x7fe5cb035000 - 0x7fe5cb054fff  ld-2.17.so  ???
+0x7ffe00d7a000 - 0x7ffe00d7bfff  linux-gate.so  ???

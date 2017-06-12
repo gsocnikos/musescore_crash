@@ -1,0 +1,12 @@
+﻿  dump_syms.cc
+  string_utils.cc
+  pdb_source_line_writer.cc
+c:\program files (x86)\windows kits\8.1\include\um\imagehlp.h(1873): warning C4091: 'typedef ': ignored on left of '' when no variable is declared
+c:\program files (x86)\windows kits\8.1\include\um\imagehlp.h(3519): warning C4091: 'typedef ': ignored on left of '' when no variable is declared
+  omap.cc
+  guid_string.cc
+  dia_util.cc
+  Generating Code...
+dia_util.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  dump_syms.vcxproj -> C:\src\breakpad\src\tools\windows\dump_syms\Debug\dump_syms.exe
+  dump_syms.vcxproj -> Debug\dump_syms.pdb (Full PDB)

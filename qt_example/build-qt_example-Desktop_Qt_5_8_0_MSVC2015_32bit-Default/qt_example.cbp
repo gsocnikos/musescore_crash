@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="qt_example"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\Qt\;CMake Files\..\..\..\Qt\5.8\;CMake Files\..\..\..\Qt\5.8\msvc2015\;CMake Files\..\..\..\Qt\5.8\msvc2015\lib\;CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\;CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5\;CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Core\;CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Quick\;CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Qml\;CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Network\;CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Gui\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/src/qmake/build-qt_example-Desktop_Qt_5_8_0_MSVC2015_32bit-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v all"/>
+					<CompileFile command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v clean"/>
+					<DistClean command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qt_example">
+				<Option output="C:/src/qmake/build-qt_example-Desktop_Qt_5_8_0_MSVC2015_32bit-Default/qt_example.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/src/qmake/build-qt_example-Desktop_Qt_5_8_0_MSVC2015_32bit-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="C:/src/qmake/build-qt_example-Desktop_Qt_5_8_0_MSVC2015_32bit-Default"/>
+					<Add directory="C:/src/qmake/qt_example"/>
+					<Add directory="C:/src/qmake/build-qt_example-Desktop_Qt_5_8_0_MSVC2015_32bit-Default/qt_example_autogen/include"/>
+					<Add directory="C:/src/qmake/qt_example/include"/>
+					<Add directory="C:/Qt/5.8/msvc2015/include"/>
+					<Add directory="C:/Qt/5.8/msvc2015/include/QtCore"/>
+					<Add directory="C:/Qt/5.8/msvc2015/./mkspecs/win32-msvc2015"/>
+					<Add directory="C:/Qt/5.8/msvc2015/include/QtQuick"/>
+					<Add directory="C:/Qt/5.8/msvc2015/include/QtQml"/>
+					<Add directory="C:/Qt/5.8/msvc2015/include/QtNetwork"/>
+					<Add directory="C:/Qt/5.8/msvc2015/include/QtGui"/>
+					<Add directory="C:/Qt/5.8/msvc2015/include/QtANGLE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.14393.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.14393.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.14393.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.14393.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v qt_example"/>
+					<CompileFile command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v clean"/>
+					<DistClean command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qt_example/fast">
+				<Option output="C:/src/qmake/build-qt_example-Desktop_Qt_5_8_0_MSVC2015_32bit-Default/qt_example.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/src/qmake/build-qt_example-Desktop_Qt_5_8_0_MSVC2015_32bit-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DUNICODE"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_QUICK_LIB"/>
+					<Add option="-DQT_QML_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="C:/src/qmake/build-qt_example-Desktop_Qt_5_8_0_MSVC2015_32bit-Default"/>
+					<Add directory="C:/src/qmake/qt_example"/>
+					<Add directory="C:/src/qmake/build-qt_example-Desktop_Qt_5_8_0_MSVC2015_32bit-Default/qt_example_autogen/include"/>
+					<Add directory="C:/src/qmake/qt_example/include"/>
+					<Add directory="C:/Qt/5.8/msvc2015/include"/>
+					<Add directory="C:/Qt/5.8/msvc2015/include/QtCore"/>
+					<Add directory="C:/Qt/5.8/msvc2015/./mkspecs/win32-msvc2015"/>
+					<Add directory="C:/Qt/5.8/msvc2015/include/QtQuick"/>
+					<Add directory="C:/Qt/5.8/msvc2015/include/QtQml"/>
+					<Add directory="C:/Qt/5.8/msvc2015/include/QtNetwork"/>
+					<Add directory="C:/Qt/5.8/msvc2015/include/QtGui"/>
+					<Add directory="C:/Qt/5.8/msvc2015/include/QtANGLE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.14393.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.14393.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.14393.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.14393.0\winrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v qt_example/fast"/>
+					<CompileFile command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v clean"/>
+					<DistClean command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/src/qmake/build-qt_example-Desktop_Qt_5_8_0_MSVC2015_32bit-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v edit_cache"/>
+					<CompileFile command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v clean"/>
+					<DistClean command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/src/qmake/build-qt_example-Desktop_Qt_5_8_0_MSVC2015_32bit-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v rebuild_cache"/>
+					<CompileFile command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v clean"/>
+					<DistClean command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qt_example_autogen">
+				<Option working_dir="C:/src/qmake/build-qt_example-Desktop_Qt_5_8_0_MSVC2015_32bit-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v qt_example_autogen"/>
+					<CompileFile command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v clean"/>
+					<DistClean command="C:/MinGW/msys/1.0/home/nickhatz/depot_tools/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/src/qmake/build-qt_example-Desktop_Qt_5_8_0_MSVC2015_32bit-Default/qt_example_autogen/EWIEGA46WW/qrc_qml.cpp">
+			<Option target="qt_example"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/build-qt_example-Desktop_Qt_5_8_0_MSVC2015_32bit-Default/qt_example_autogen/moc_compilation.cpp">
+			<Option target="qt_example"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/client/windows/common/ipc_protocol.h">
+			<Option target="qt_example"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/client/windows/crash_generation/crash_generation_client.cc">
+			<Option target="qt_example"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/client/windows/crash_generation/crash_generation_client.h">
+			<Option target="qt_example"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/client/windows/handler/exception_handler.cc">
+			<Option target="qt_example"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/client/windows/handler/exception_handler.h">
+			<Option target="qt_example"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/common/scoped_ptr.h">
+			<Option target="qt_example"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/common/windows/guid_string.cc">
+			<Option target="qt_example"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/common/windows/guid_string.h">
+			<Option target="qt_example"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/common/windows/string_utils-inl.h">
+			<Option target="qt_example"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/common/windows/string_utils.cc">
+			<Option target="qt_example"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/crash_handler.cpp">
+			<Option target="qt_example"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/crash_handler.h">
+			<Option target="qt_example"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/google_breakpad/common/breakpad_types.h">
+			<Option target="qt_example"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/google_breakpad/common/minidump_format.h">
+			<Option target="qt_example"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/main.cpp">
+			<Option target="qt_example"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/qml.qrc">
+			<Option target="qt_example"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/qml.qrc">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Quick/Qt5QuickConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Quick/Qt5QuickConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Quick\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Qml/Qt5QmlConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Qml/Qt5QmlConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Qml/Qt5QmlConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Qml/Qt5Qml_QLocalClientConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebugServerFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Qml/Qt5Qml_QQmlDebuggerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Qml/Qt5Qml_QQmlInspectorServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Qml/Qt5Qml_QQmlNativeDebugConnectorFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Qml/Qt5Qml_QQmlProfilerServiceFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Qml/Qt5Qml_QQuickProfilerAdapterFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Qml/Qt5Qml_QTcpServerConnectionFactory.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Qml\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Network/Qt5Network_QNativeWifiEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/src/qmake/qt_example/../../../Qt/5.8/msvc2015/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Qt\5.8\msvc2015\lib\cmake\Qt5Gui\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

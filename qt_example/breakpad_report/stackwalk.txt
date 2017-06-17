@@ -11,14 +11,14 @@ Crash address: 0xfffffffffee1dead
 Process uptime: 2 seconds
 
 Thread 0 (crashed)
- 0  Qt5Cored.dll + 0x34a89
+ 0  Qt5Cored.dll!QString::~QString() [qstring.h : 1096 + 0x29]
     eip = 0x612b4a89   esp = 0x010ff9b4   ebp = 0x010ff9c8   ebx = 0x00ed0000
     esi = 0x010ff9d0   edi = 0x010ffa64   eax = 0xfee1dead   ecx = 0xfee1dead
     edx = 0x010ffa28   efl = 0x00210202
     Found by: given as instruction pointer in context
  1  qt_example.exe!QString::`scalar deleting destructor'(unsigned int) + 0x1a
     eip = 0x00223dda   esp = 0x010ff9d0   ebp = 0x010ff9d8
-    Found by: previous frame's frame pointer
+    Found by: call frame info
  2  qt_example.exe!buggyFunc() [main.cpp : 9 + 0x1d]
     eip = 0x00223818   esp = 0x010ff9e0   ebp = 0x010ff9f0
     Found by: call frame info
@@ -107,27 +107,27 @@ Thread 4
  2  user32.dll + 0x2eda3
     eip = 0x760aeda3   esp = 0x02e3d9dc   ebp = 0x02e3d9fc
     Found by: previous frame's frame pointer
- 3  Qt5Cored.dll + 0x3a9773
+ 3  Qt5Cored.dll!QEventDispatcherWin32::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) [qeventdispatcher_win.cpp : 634 + 0x1d]
     eip = 0x61629773   esp = 0x02e3da04   ebp = 0x02e3f81c
     Found by: previous frame's frame pointer
- 4  Qt5Cored.dll + 0x30c74c
+ 4  Qt5Cored.dll!QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) [qeventloop.cpp : 134 + 0x22]
     eip = 0x6158c74c   esp = 0x02e3f824   ebp = 0x02e3f834
-    Found by: previous frame's frame pointer
- 5  Qt5Cored.dll + 0x30c957
+    Found by: call frame info
+ 5  Qt5Cored.dll!QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) [qeventloop.cpp : 212 + 0x26]
     eip = 0x6158c957   esp = 0x02e3f83c   ebp = 0x02e3f898
-    Found by: previous frame's frame pointer
- 6  Qt5Cored.dll + 0x9bdbd
+    Found by: call frame info
+ 6  Qt5Cored.dll!QThread::exec() [qthread.cpp : 507 + 0x15]
     eip = 0x6131bdbd   esp = 0x02e3f8a0   ebp = 0x02e3f8d8
-    Found by: previous frame's frame pointer
- 7  Qt5Qmld.dll + 0x3ca4ab
+    Found by: call frame info
+ 7  Qt5Qmld.dll!QQmlThreadPrivate::run() [qqmlthread.cpp : 147 + 0x9]
     eip = 0x61f4a4ab   esp = 0x02e3f8e0   ebp = 0x02e3f8e4
-    Found by: previous frame's frame pointer
- 8  Qt5Cored.dll + 0xa64d0
+    Found by: call frame info
+ 8  Qt5Cored.dll!QThreadPrivate::start(void *) [qthread_win.cpp : 378 + 0xd]
     eip = 0x613264d0   esp = 0x02e3f8ec   ebp = 0x02e3f928
-    Found by: previous frame's frame pointer
+    Found by: call frame info
  9  kernel32.dll + 0x18744
     eip = 0x770d8744   esp = 0x02e3f930   ebp = 0x02e3f93c
-    Found by: previous frame's frame pointer
+    Found by: call frame info
 10  ntdll.dll + 0x6587d
     eip = 0x776d587d   esp = 0x02e3f944   ebp = 0x02e3f984
     Found by: previous frame's frame pointer
@@ -234,8 +234,8 @@ Loaded modules:
 0x603b0000 - 0x6063bfff  qwindowsd.dll  5.8.0.0
 0x60640000 - 0x60883fff  Qt5Networkd.dll  5.8.0.0
 0x60890000 - 0x61278fff  Qt5Guid.dll  5.8.0.0
-0x61280000 - 0x61b7cfff  Qt5Cored.dll  5.8.0.0  (WARNING: No symbols, Qt5Cored.pdb, D88DE4555E7D46AA9267101BD67155E61)
-0x61b80000 - 0x6220efff  Qt5Qmld.dll  5.8.0.0  (WARNING: No symbols, Qt5Qmld.pdb, E15BC75299D4412AAB19044FCB3C02171)
+0x61280000 - 0x61b7cfff  Qt5Cored.dll  5.8.0.0
+0x61b80000 - 0x6220efff  Qt5Qmld.dll  5.8.0.0
 0x62210000 - 0x62385fff  ucrtbased.dll  10.0.14393.33
 0x62390000 - 0x62448fff  MSVCP140D.dll  14.0.24215.1
 0x62480000 - 0x62492fff  qtquick2plugind.dll  5.8.0.0

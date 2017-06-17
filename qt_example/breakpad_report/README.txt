@@ -3,6 +3,8 @@ c:\Users\nickhatz\a32acd69-0d4a-4630-a1e8-6ebc6b7ac502.dmp
 
 # Generation of symbol files using dump_syms precompile from breakpads git
 C:\Users\nickhatz\breakpad\src\tools\windows\binaries\dump_syms.exe qt_example.pdb > qt_example.sym
+C:\Users\nickhatz\breakpad\src\tools\windows\binaries\dump_syms.exe C:\Qt\5.8\msvc2015\bin\Qt5Cored.pdb > Qt5Cored.sym
+C:\Users\nickhatz\breakpad\src\tools\windows\binaries\dump_syms.exe C:\Qt\5.8\msvc2015\bin\Qt5Qmld.pdb > Qt5Qmld.sym
 
 # create symbol folder and stor symbol file 
 create_sym_dir.sh

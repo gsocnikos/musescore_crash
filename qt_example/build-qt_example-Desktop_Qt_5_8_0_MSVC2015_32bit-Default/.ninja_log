@@ -85,3 +85,9 @@
 11	102	519419975	CMakeFiles/qt_example_autogen	cac985f5a7e85909
 11	102	519419975	qt_example_autogen/moc_compilation.cpp	cac985f5a7e85909
 11	102	519419975	qt_example_autogen/EWIEGA46WW/qrc_qml.cpp	cac985f5a7e85909
+14	297	519419975	CMakeFiles/qt_example_autogen	cac985f5a7e85909
+14	297	519419975	qt_example_autogen/moc_compilation.cpp	cac985f5a7e85909
+14	297	519419975	qt_example_autogen/EWIEGA46WW/qrc_qml.cpp	cac985f5a7e85909
+327	4147	0	CMakeFiles/qt_example.dir/crash_handler.cpp.obj	5fffa826c3dfa8d4
+299	4497	0	CMakeFiles/qt_example.dir/main.cpp.obj	be906f392460b57
+4497	5188	0	qt_example.exe	2771a367e66d1046

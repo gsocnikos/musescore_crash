@@ -2,7 +2,11 @@
 
 
 
+
 namespace Breakpad {
+
+
+
     /************************************************************************/
     /* CrashHandlerPrivate                                                  */
     /************************************************************************/
@@ -27,6 +31,26 @@ namespace Breakpad {
     google_breakpad::ExceptionHandler* CrashHandlerPrivate::pHandler = NULL;
     bool CrashHandlerPrivate::bReportCrashesToSystem = false;
 
+    QHash<QString, QString> crashTable;
+    QMutex mymutex;
+
+    int AnnotateCrashReport(const QString& aKey, const QString& aData){
+        mymutex.lock();
+        crashTable.insert(aKey,aData);
+        mymutex.unlock();
+        return 0;
+    }
+
+    int PrintMyCrashReport(){
+        QHashIterator<QString, QString> i(crashTable);
+        while (i.hasNext()) {
+            i.next();
+            qDebug("%s : %s", qUtf8Printable(i.key()),qUtf8Printable(i.value()) );
+        }
+        return 0;
+    }
+
+
     /************************************************************************/
     /* DumpCallback                                                         */
     /************************************************************************/
@@ -39,6 +63,8 @@ namespace Breakpad {
         Q_UNUSED(exinfo);
 
         qDebug("BreakpadQt crash");
+
+        PrintMyCrashReport();
 
         /*
         NO STACK USE, NO HEAP USE THERE !!!

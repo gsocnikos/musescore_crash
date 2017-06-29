@@ -1,0 +1,289 @@
+Operating system: Windows NT
+                  10.0.15063 
+CPU: x86
+     GenuineIntel family 6 model 58 stepping 9
+     2 CPUs
+
+GPU: UNKNOWN
+
+Crash reason:  EXCEPTION_ACCESS_VIOLATION_READ
+Crash address: 0xfffffffffee1dead
+Process uptime: 33 seconds
+
+Thread 0 (crashed)
+ 0  qt_example.exe + 0xbea4
+    eip = 0x0040bea4   esp = 0x0061fe10   ebp = 0x0061fe38   ebx = 0x00000000
+    esi = 0x1f797af8   edi = 0x00000052   eax = 0xfee1dead   ecx = 0xfee1dead
+    edx = 0x007a2c20   efl = 0x00210202
+    Found by: given as instruction pointer in context
+ 1  qt_example.exe!buggyFunc [main.cpp : 11 + 0xa]
+    eip = 0x00401640   esp = 0x0061fe40   ebp = 0x0061fe58
+    Found by: previous frame's frame pointer
+ 2  qt_example.exe!main [main.cpp : 32 + 0x5]
+    eip = 0x004017ef   esp = 0x0061fe60   ebp = 0x0061fea8
+    Found by: previous frame's frame pointer
+ 3  qt_example.exe + 0x13e2
+    eip = 0x004013e2   esp = 0x0061feb0   ebp = 0x0061ff80
+    Found by: previous frame's frame pointer
+ 4  kernel32.dll + 0x18744
+    eip = 0x75118744   esp = 0x0061ff88   ebp = 0x0061ff94
+    Found by: previous frame's frame pointer
+ 5  ntdll.dll + 0x6587d
+    eip = 0x7701587d   esp = 0x0061ff9c   ebp = 0x0061ffdc
+    Found by: previous frame's frame pointer
+ 6  ntdll.dll + 0x6584d
+    eip = 0x7701584d   esp = 0x0061ffe4   ebp = 0x0061ffec
+    Found by: previous frame's frame pointer
+
+Thread 1
+ 0  ntdll.dll + 0x739bc
+    eip = 0x770239bc   esp = 0x00b0fd7c   ebp = 0x00b0ff80   ebx = 0x00814d58
+    esi = 0x008198f0   edi = 0x00819ab0   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000202
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x18744
+    eip = 0x75118744   esp = 0x00b0ff88   ebp = 0x00b0ff94
+    Found by: previous frame's frame pointer
+ 2  ntdll.dll + 0x6587d
+    eip = 0x7701587d   esp = 0x00b0ff9c   ebp = 0x00b0ffdc
+    Found by: previous frame's frame pointer
+ 3  ntdll.dll + 0x6584d
+    eip = 0x7701584d   esp = 0x00b0ffe4   ebp = 0x00b0ffec
+    Found by: previous frame's frame pointer
+
+Thread 2
+ 0  ntdll.dll + 0x739bc
+    eip = 0x770239bc   esp = 0x00d0fd7c   ebp = 0x00d0ff80   ebx = 0x00814d58
+    esi = 0x00819b88   edi = 0x00819d48   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000202
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x18744
+    eip = 0x75118744   esp = 0x00d0ff88   ebp = 0x00d0ff94
+    Found by: previous frame's frame pointer
+ 2  ntdll.dll + 0x6587d
+    eip = 0x7701587d   esp = 0x00d0ff9c   ebp = 0x00d0ffdc
+    Found by: previous frame's frame pointer
+ 3  ntdll.dll + 0x6584d
+    eip = 0x7701584d   esp = 0x00d0ffe4   ebp = 0x00d0ffec
+    Found by: previous frame's frame pointer
+
+Thread 3
+ 0  ntdll.dll + 0x739bc
+    eip = 0x770239bc   esp = 0x00f0fd7c   ebp = 0x00f0ff80   ebx = 0x00814d58
+    esi = 0x00819e20   edi = 0x00819fe0   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000202
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x18744
+    eip = 0x75118744   esp = 0x00f0ff88   ebp = 0x00f0ff94
+    Found by: previous frame's frame pointer
+ 2  ntdll.dll + 0x6587d
+    eip = 0x7701587d   esp = 0x00f0ff9c   ebp = 0x00f0ffdc
+    Found by: previous frame's frame pointer
+ 3  ntdll.dll + 0x6584d
+    eip = 0x7701584d   esp = 0x00f0ffe4   ebp = 0x00f0ffec
+    Found by: previous frame's frame pointer
+
+Thread 4
+ 0  ntdll.dll + 0x7231c
+    eip = 0x7702231c   esp = 0x2162dde0   ebp = 0x2162df70   ebx = 0x00000001
+    esi = 0x00000001   edi = 0x00000001   eax = 0x00000288   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000212
+    Found by: given as instruction pointer in context
+ 1  user32.dll + 0x2ef5b
+    eip = 0x76e9ef5b   esp = 0x2162df78   ebp = 0x2162dfe0
+    Found by: previous frame's frame pointer
+ 2  user32.dll + 0x2eda3
+    eip = 0x76e9eda3   esp = 0x2162dfe8   ebp = 0x2162e008
+    Found by: previous frame's frame pointer
+ 3  Qt5Cored.dll + 0x1abe3f
+    eip = 0x010bbe3f   esp = 0x2162e010   ebp = 0x2162fe18
+    Found by: previous frame's frame pointer
+ 4  Qt5Cored.dll + 0x15b3b0
+    eip = 0x0106b3b0   esp = 0x2162fe20   ebp = 0x2162fe68
+    Found by: previous frame's frame pointer
+ 5  Qt5Cored.dll + 0x15b660
+    eip = 0x0106b660   esp = 0x2162fe70   ebp = 0x2162fec8
+    Found by: previous frame's frame pointer
+ 6  Qt5Cored.dll + 0x18a4f
+    eip = 0x00f28a4f   esp = 0x2162fed0   ebp = 0x2162ff18
+    Found by: previous frame's frame pointer
+ 7  Qt5Qmld.dll + 0x16b546
+    eip = 0x1463b546   esp = 0x2162ff20   ebp = 0x2162ff38
+    Found by: previous frame's frame pointer
+ 8  Qt5Cored.dll + 0x1b817
+    eip = 0x00f2b817   esp = 0x2162ff40   ebp = 0x2162ff78
+    Found by: previous frame's frame pointer
+ 9  kernel32.dll + 0x18744
+    eip = 0x75118744   esp = 0x2162ff80   ebp = 0x2162ff94
+    Found by: previous frame's frame pointer
+10  ntdll.dll + 0x6587d
+    eip = 0x7701587d   esp = 0x2162ff9c   ebp = 0x2162ffdc
+    Found by: previous frame's frame pointer
+11  ntdll.dll + 0x6584d
+    eip = 0x7701584d   esp = 0x2162ffe4   ebp = 0x2162ffec
+    Found by: previous frame's frame pointer
+
+Thread 5
+ 0  ntdll.dll + 0x739bc
+    eip = 0x770239bc   esp = 0x220ffd7c   ebp = 0x220fff80   ebx = 0x008107b0
+    esi = 0x0083aa40   edi = 0x0083ac00   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000202
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x18744
+    eip = 0x75118744   esp = 0x220fff88   ebp = 0x220fff94
+    Found by: previous frame's frame pointer
+ 2  ntdll.dll + 0x6587d
+    eip = 0x7701587d   esp = 0x220fff9c   ebp = 0x220fffdc
+    Found by: previous frame's frame pointer
+ 3  ntdll.dll + 0x6584d
+    eip = 0x7701584d   esp = 0x220fffe4   ebp = 0x220fffec
+    Found by: previous frame's frame pointer
+
+Thread 6
+ 0  ntdll.dll + 0x739bc
+    eip = 0x770239bc   esp = 0x2233fd7c   ebp = 0x2233ff80   ebx = 0x008107b0
+    esi = 0x0083bd70   edi = 0x0083bf30   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000202
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x18744
+    eip = 0x75118744   esp = 0x2233ff88   ebp = 0x2233ff94
+    Found by: previous frame's frame pointer
+ 2  ntdll.dll + 0x6587d
+    eip = 0x7701587d   esp = 0x2233ff9c   ebp = 0x2233ffdc
+    Found by: previous frame's frame pointer
+ 3  ntdll.dll + 0x6584d
+    eip = 0x7701584d   esp = 0x2233ffe4   ebp = 0x2233ffec
+    Found by: previous frame's frame pointer
+
+Thread 7
+ 0  ntdll.dll + 0x739bc
+    eip = 0x770239bc   esp = 0x3001fd7c   ebp = 0x3001ff80   ebx = 0x0084e7b0
+    esi = 0x0085dd38   edi = 0x0085def8   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000202
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x18744
+    eip = 0x75118744   esp = 0x3001ff88   ebp = 0x3001ff94
+    Found by: previous frame's frame pointer
+ 2  ntdll.dll + 0x6587d
+    eip = 0x7701587d   esp = 0x3001ff9c   ebp = 0x3001ffdc
+    Found by: previous frame's frame pointer
+ 3  ntdll.dll + 0x6584d
+    eip = 0x7701584d   esp = 0x3001ffe4   ebp = 0x3001ffec
+    Found by: previous frame's frame pointer
+
+Thread 8
+ 0  ntdll.dll + 0x739bc
+    eip = 0x770239bc   esp = 0x3025fd7c   ebp = 0x3025ff80   ebx = 0x0084e7b0
+    esi = 0x008635a8   edi = 0x00000000   eax = 0x76fea3f0   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000202
+    Found by: given as instruction pointer in context
+ 1  kernel32.dll + 0x18744
+    eip = 0x75118744   esp = 0x3025ff88   ebp = 0x3025ff94
+    Found by: previous frame's frame pointer
+ 2  ntdll.dll + 0x6587d
+    eip = 0x7701587d   esp = 0x3025ff9c   ebp = 0x3025ffdc
+    Found by: previous frame's frame pointer
+ 3  ntdll.dll + 0x6584d
+    eip = 0x7701584d   esp = 0x3025ffe4   ebp = 0x3025ffec
+    Found by: previous frame's frame pointer
+
+Thread 9
+ 0  ntdll.dll + 0x7231c
+    eip = 0x7702231c   esp = 0x3049fc48   ebp = 0x3049fdd8   ebx = 0x00000000
+    esi = 0x00000001   edi = 0x00000001   eax = 0x00000000   ecx = 0x00000000
+    edx = 0x00000000   efl = 0x00000206
+    Found by: given as instruction pointer in context
+ 1  combase.dll + 0xe4a03
+    eip = 0x75b74a03   esp = 0x3049fde0   ebp = 0x3049ff14
+    Found by: previous frame's frame pointer
+ 2  combase.dll + 0xe754e
+    eip = 0x75b7754e   esp = 0x3049ff1c   ebp = 0x3049ff44
+    Found by: previous frame's frame pointer
+ 3  combase.dll + 0xe4863
+    eip = 0x75b74863   esp = 0x3049ff4c   ebp = 0x3049ff70
+    Found by: previous frame's frame pointer
+ 4  combase.dll + 0x1153bf
+    eip = 0x75ba53bf   esp = 0x3049ff78   ebp = 0x3049ff80
+    Found by: previous frame's frame pointer
+ 5  kernel32.dll + 0x18744
+    eip = 0x75118744   esp = 0x3049ff88   ebp = 0x3049ff94
+    Found by: previous frame's frame pointer
+ 6  ntdll.dll + 0x6587d
+    eip = 0x7701587d   esp = 0x3049ff9c   ebp = 0x3049ffdc
+    Found by: previous frame's frame pointer
+ 7  ntdll.dll + 0x6584d
+    eip = 0x7701584d   esp = 0x3049ffe4   ebp = 0x3049ffec
+    Found by: previous frame's frame pointer
+
+Loaded modules:
+0x00400000 - 0x0041ffff  qt_example.exe  ???  (main)
+0x00f10000 - 0x081a7fff  Qt5Cored.dll  5.8.0.0  (WARNING: No symbols, , )
+0x081b0000 - 0x144c8fff  Qt5Guid.dll  5.8.0.0  (WARNING: No symbols, , )
+0x144d0000 - 0x1f5e1fff  Qt5Qmld.dll  5.8.0.0  (WARNING: No symbols, , )
+0x223c0000 - 0x2e66efff  Qt5Quickd.dll  5.8.0.0  (WARNING: No symbols, , )
+0x2e670000 - 0x2e7d1fff  d3d9.dll  6.2.15063.0
+0x2e7e0000 - 0x2e8befff  opengl32.dll  6.2.15063.0
+0x2e8c0000 - 0x2e8e4fff  glu32.dll  6.2.15063.0
+0x2e8f0000 - 0x2e997fff  prl_gldd.dll  8.15.10.41591
+0x62900000 - 0x62975fff  qtquick2plugind.dll  5.8.0.0  (WARNING: No symbols, , )
+0x62a40000 - 0x64496fff  qwindowsd.dll  5.8.0.0  (WARNING: No symbols, , )
+0x64b40000 - 0x64b5afff  libwinpthread-1.dll  1.0.0.0  (WARNING: No symbols, , )
+0x66d40000 - 0x66dc9fff  dxgi.dll  6.2.15063.0
+0x66dd0000 - 0x66ebafff  dcomp.dll  6.2.15063.0
+0x66ec0000 - 0x67111fff  d3d11.dll  6.2.15063.0
+0x67120000 - 0x67162fff  dataexchange.dll  6.2.15063.0
+0x672c0000 - 0x673e3fff  NetworkExplorer.dll  6.2.15063.0
+0x67b70000 - 0x67db6fff  DWrite.dll  6.2.15063.413
+0x67e80000 - 0x6b678fff  Qt5Networkd.dll  5.8.0.0  (WARNING: No symbols, , )
+0x6bbc0000 - 0x6bc3cfff  windowplugind.dll  5.8.0.0  (WARNING: No symbols, , )
+0x6c830000 - 0x6c8c2fff  apphelp.dll  6.2.15063.0
+0x6c8d0000 - 0x6ca05fff  twinapi.appcore.dll  6.2.15063.332
+0x6cfe0000 - 0x6d002fff  WINMMBASE.dll  6.2.15063.0
+0x6d010000 - 0x6d033fff  winmm.dll  6.2.15063.0
+0x6d310000 - 0x6d38efff  dnsapi.dll  6.2.15063.0
+0x6e9c0000 - 0x6eb23fff  propsys.dll  7.0.15063.0
+0x6eb40000 - 0x6eb63fff  libgcc_s_dw2-1.dll  ???  (WARNING: No symbols, , )
+0x6f930000 - 0x6f945fff  mpr.dll  6.2.15063.0
+0x6fe40000 - 0x6ffbdfff  libstdc++-6.dll  ???  (WARNING: No symbols, , )
+0x707a0000 - 0x70817fff  uxtheme.dll  6.2.15063.0
+0x70c10000 - 0x70c3efff  IPHLPAPI.DLL  6.2.15063.0
+0x70df0000 - 0x70e11fff  userenv.dll  6.2.15063.0
+0x72ed0000 - 0x72ef2fff  dwmapi.dll  6.2.15063.0
+0x72f00000 - 0x72f24fff  dbgcore.dll  6.2.15063.0
+0x72f90000 - 0x730ecfff  dbghelp.dll  6.2.15063.250
+0x73120000 - 0x73137fff  bcrypt.dll  6.2.15063.0
+0x73980000 - 0x73987fff  version.dll  6.2.15063.0
+0x73a70000 - 0x73a79fff  CRYPTBASE.dll  6.2.15063.0
+0x73a80000 - 0x73a9ffff  sspicli.dll  6.2.15063.0
+0x73ac0000 - 0x73b42fff  clbcatq.dll  2001.12.10941.16384
+0x73bc0000 - 0x74f07fff  shell32.dll  6.2.15063.413
+0x74f10000 - 0x74fccfff  msvcrt.dll  7.0.15063.0
+0x74fd0000 - 0x74ff4fff  imm32.dll  6.2.15063.0
+0x75090000 - 0x750f6fff  ws2_32.dll  6.2.15063.0
+0x75100000 - 0x751cffff  kernel32.dll  6.2.15063.296  (WARNING: No symbols, wkernel32.pdb, A21DD779F249E7083A11BBCC2511AB5F1)
+0x751d0000 - 0x7525bfff  SHCore.dll  6.2.15063.0
+0x753d0000 - 0x754c2fff  ole32.dll  6.2.15063.296
+0x758f0000 - 0x75934fff  powrprof.dll  6.2.15063.0
+0x75940000 - 0x75996fff  bcryptPrimitives.dll  6.2.15063.138
+0x75a90000 - 0x75cc7fff  combase.dll  6.2.15063.296  (WARNING: No symbols, combase.pdb, EF62933EE2184C2BCEF297528292694F1)
+0x75cd0000 - 0x75cddfff  kernel.appcore.dll  6.2.15063.0
+0x75ce0000 - 0x75df7fff  ucrtbase.dll  6.2.15063.413
+0x75e00000 - 0x76383fff  windows.storage.dll  6.2.15063.332
+0x76390000 - 0x7639ffff  profapi.dll  6.2.15063.0
+0x763a0000 - 0x764f7fff  gdi32full.dll  6.2.15063.413
+0x76500000 - 0x76506fff  nsi.dll  6.2.15063.0
+0x76580000 - 0x7658dfff  msasn1.dll  6.2.15063.0
+0x76640000 - 0x76785fff  msctf.dll  6.2.15063.332
+0x76790000 - 0x76825fff  oleaut32.dll  6.2.15063.332
+0x76830000 - 0x76868fff  cfgmgr32.dll  6.2.15063.0
+0x76870000 - 0x768b4fff  shlwapi.dll  6.2.15063.0
+0x768c0000 - 0x768e0fff  gdi32.dll  6.2.15063.0
+0x768f0000 - 0x76966fff  advapi32.dll  6.2.15063.0
+0x76970000 - 0x769b0fff  sechost.dll  6.2.15063.0
+0x769c0000 - 0x76b81fff  KERNELBASE.dll  6.2.15063.296
+0x76b90000 - 0x76c08fff  msvcp_win.dll  6.2.15063.0
+0x76c10000 - 0x76c25fff  win32u.dll  6.2.15063.0
+0x76c30000 - 0x76dacfff  crypt32.dll  6.2.15063.296
+0x76db0000 - 0x76e6ffff  rpcrt4.dll  6.2.15063.0
+0x76e70000 - 0x76fabfff  user32.dll  6.2.15063.0  (WARNING: No symbols, wuser32.pdb, 100112F7FB400E618355D837C7B6A0311)
+0x76fb0000 - 0x7713dfff  ntdll.dll  6.2.15063.0  (WARNING: No symbols, wntdll.pdb, EF9158BFE24E6ADB1193CA426B70DFEA1)

@@ -1,0 +1,82 @@
+2017-06-28 21:52:44: minidump.cc:4811: INFO: Minidump opened minidump 972290fe-9619-4097-bf53-c9196a2a9b04.dmp
+2017-06-28 21:52:44: minidump.cc:4931: INFO: Minidump not byte-swapping minidump
+2017-06-28 21:52:44: minidump.cc:5414: INFO: GetStream: type 1197932546 not present
+2017-06-28 21:52:44: minidump.cc:2182: INFO: MinidumpModule could not determine version for C:\src\qmake\build-qt_example-Desktop_Qt_5_8_0_MinGW_32bit-Default\qt_example.exe
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\bin\libgcc_s_dw2-1.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\bin\libgcc_s_dw2-1.dll
+2017-06-28 21:52:44: minidump.cc:2182: INFO: MinidumpModule could not determine version for C:\Qt\5.8\mingw53_32\bin\libgcc_s_dw2-1.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\bin\libstdc++-6.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\bin\libstdc++-6.dll
+2017-06-28 21:52:44: minidump.cc:2182: INFO: MinidumpModule could not determine version for C:\Qt\5.8\mingw53_32\bin\libstdc++-6.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\bin\libwinpthread-1.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\bin\libwinpthread-1.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\bin\Qt5Cored.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\bin\Qt5Cored.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\bin\Qt5Guid.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\bin\Qt5Guid.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\bin\Qt5Qmld.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\bin\Qt5Qmld.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\bin\Qt5Networkd.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\bin\Qt5Networkd.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\plugins\platforms\qwindowsd.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\plugins\platforms\qwindowsd.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\qml\QtQuick.2\qtquick2plugind.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\qml\QtQuick.2\qtquick2plugind.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\bin\Qt5Quickd.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\bin\Qt5Quickd.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\qml\QtQuick\Window.2\windowplugind.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\qml\QtQuick\Window.2\windowplugind.dll
+2017-06-28 21:52:44: minidump.cc:2182: INFO: MinidumpModule could not determine version for C:\src\qmake\build-qt_example-Desktop_Qt_5_8_0_MinGW_32bit-Default\qt_example.exe
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\bin\libgcc_s_dw2-1.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\bin\libgcc_s_dw2-1.dll
+2017-06-28 21:52:44: minidump.cc:2182: INFO: MinidumpModule could not determine version for C:\Qt\5.8\mingw53_32\bin\libgcc_s_dw2-1.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\bin\libstdc++-6.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\bin\libstdc++-6.dll
+2017-06-28 21:52:44: minidump.cc:2182: INFO: MinidumpModule could not determine version for C:\Qt\5.8\mingw53_32\bin\libstdc++-6.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\bin\libwinpthread-1.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\bin\libwinpthread-1.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\bin\Qt5Cored.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\bin\Qt5Cored.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\bin\Qt5Guid.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\bin\Qt5Guid.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\bin\Qt5Qmld.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\bin\Qt5Qmld.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\bin\Qt5Networkd.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\bin\Qt5Networkd.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\plugins\platforms\qwindowsd.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\plugins\platforms\qwindowsd.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\qml\QtQuick.2\qtquick2plugind.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\qml\QtQuick.2\qtquick2plugind.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\bin\Qt5Quickd.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\bin\Qt5Quickd.dll
+2017-06-28 21:52:44: minidump.cc:2060: INFO: MinidumpModule could not determine debug_file for C:\Qt\5.8\mingw53_32\qml\QtQuick\Window.2\windowplugind.dll
+2017-06-28 21:52:44: minidump.cc:2150: INFO: MinidumpModule could not determine debug_identifier for C:\Qt\5.8\mingw53_32\qml\QtQuick\Window.2\windowplugind.dll
+2017-06-28 21:52:44: minidump.cc:5414: INFO: GetStream: type 14 not present
+2017-06-28 21:52:44: minidump_processor.cc:152: INFO: Found 16 memory regions.
+2017-06-28 21:52:44: minidump_processor.cc:162: INFO: Minidump 972290fe-9619-4097-bf53-c9196a2a9b04.dmp has CPU info, OS info, Breakpad info, exception, module list, thread list, dump thread, requesting thread, and process create time
+2017-06-28 21:52:44: minidump_processor.cc:201: INFO: Looking at thread 972290fe-9619-4097-bf53-c9196a2a9b04.dmp:0/11 id 0x26b4
+2017-06-28 21:52:44: source_line_resolver_base.cc:236: INFO: Loading symbols for module C:\src\qmake\build-qt_example-Desktop_Qt_5_8_0_MinGW_32bit-Default\qt_example.exe from memory buffer
+2017-06-28 21:52:44: simple_symbol_supplier.cc:196: INFO: No symbol file at symbols//wkernel32.pdb/A21DD779F249E7083A11BBCC2511AB5F1/wkernel32.sym
+2017-06-28 21:52:44: stackwalker.cc:98: INFO: Couldn't load symbols for: wkernel32.pdb|A21DD779F249E7083A11BBCC2511AB5F1
+2017-06-28 21:52:44: simple_symbol_supplier.cc:196: INFO: No symbol file at symbols//wntdll.pdb/EF9158BFE24E6ADB1193CA426B70DFEA1/wntdll.sym
+2017-06-28 21:52:44: stackwalker.cc:98: INFO: Couldn't load symbols for: wntdll.pdb|EF9158BFE24E6ADB1193CA426B70DFEA1
+2017-06-28 21:52:44: minidump_processor.cc:201: INFO: Looking at thread 972290fe-9619-4097-bf53-c9196a2a9b04.dmp:1/11 id 0x2550
+2017-06-28 21:52:44: minidump_processor.cc:201: INFO: Looking at thread 972290fe-9619-4097-bf53-c9196a2a9b04.dmp:2/11 id 0x2368
+2017-06-28 21:52:44: minidump_processor.cc:201: INFO: Looking at thread 972290fe-9619-4097-bf53-c9196a2a9b04.dmp:3/11 id 0x27b8
+2017-06-28 21:52:44: minidump_processor.cc:201: INFO: Looking at thread 972290fe-9619-4097-bf53-c9196a2a9b04.dmp:4/11 id 0x2764
+2017-06-28 21:52:44: minidump_processor.cc:201: INFO: Looking at thread 972290fe-9619-4097-bf53-c9196a2a9b04.dmp:5/11 id 0x27c8
+2017-06-28 21:52:44: simple_symbol_supplier.cc:196: INFO: No symbol file at symbols//wuser32.pdb/100112F7FB400E618355D837C7B6A0311/wuser32.sym
+2017-06-28 21:52:44: stackwalker.cc:98: INFO: Couldn't load symbols for: wuser32.pdb|100112F7FB400E618355D837C7B6A0311
+2017-06-28 21:52:44: simple_symbol_supplier.cc:160: ERROR: Can't construct symbol file path without debug_file (code_file = Qt5Cored.dll)
+2017-06-28 21:52:44: stackwalker.cc:98: INFO: Couldn't load symbols for: |
+2017-06-28 21:52:44: simple_symbol_supplier.cc:160: ERROR: Can't construct symbol file path without debug_file (code_file = Qt5Qmld.dll)
+2017-06-28 21:52:44: stackwalker.cc:98: INFO: Couldn't load symbols for: |
+2017-06-28 21:52:44: minidump_processor.cc:201: INFO: Looking at thread 972290fe-9619-4097-bf53-c9196a2a9b04.dmp:6/11 id 0x24dc
+2017-06-28 21:52:44: minidump_processor.cc:201: INFO: Looking at thread 972290fe-9619-4097-bf53-c9196a2a9b04.dmp:7/11 id 0x2768
+2017-06-28 21:52:44: minidump_processor.cc:201: INFO: Looking at thread 972290fe-9619-4097-bf53-c9196a2a9b04.dmp:8/11 id 0x2638
+2017-06-28 21:52:44: minidump_processor.cc:201: INFO: Looking at thread 972290fe-9619-4097-bf53-c9196a2a9b04.dmp:9/11 id 0x26f8
+2017-06-28 21:52:44: minidump_processor.cc:201: INFO: Looking at thread 972290fe-9619-4097-bf53-c9196a2a9b04.dmp:10/11 id 0x27fc
+2017-06-28 21:52:44: simple_symbol_supplier.cc:196: INFO: No symbol file at symbols//combase.pdb/EF62933EE2184C2BCEF297528292694F1/combase.sym
+2017-06-28 21:52:44: stackwalker.cc:98: INFO: Couldn't load symbols for: combase.pdb|EF62933EE2184C2BCEF297528292694F1
+2017-06-28 21:52:44: minidump_processor.cc:326: INFO: Processed 972290fe-9619-4097-bf53-c9196a2a9b04.dmp
+2017-06-28 21:52:44: minidump.cc:4783: INFO: Minidump closing minidump

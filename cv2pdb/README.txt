@@ -34,6 +34,11 @@ then select from the task bar: build -> build cv2pdb
 this procedure will create the cv2pdb.exe
 
 
+dump_syms.exe came precompiled with the source code of breakpads. 
+For downloading breakpads please visit: https://chromium.googlesource.com/breakpad/breakpad/
+The executable can be located in the folder: src\tools\windows\binaries
+
+
 Visual Studio Studio
 --------------------
 
@@ -55,16 +60,21 @@ Quick start:
 
 Simply run
 
-cv2pdb debuggee.exe
+cv2pdb.exe MuseScore.exe
 
-it will produce a file:
-debuggee.pdb
+it will produce the file:
 
-in the case that outputs:
+MuseScore.pdb
+
+in the case that outputs is:
 
 no code view found 
 
 that means that the executable does not contains the symbols and allocation tables
-to enable them compile the source gode with the -g option:
+to enable them compile the source code with the -g option as a simple example:
 g++ -g debuggee.cpp -o debuggee.exe
 
+After you produce the MuseScore.pdb you have to produce the symbol file using:
+dump_syms.exe MuseScore.pdb > MuseScore.sym
+
+This is the file that is needed from breakpads to produce the human readable trace from the minidumps
